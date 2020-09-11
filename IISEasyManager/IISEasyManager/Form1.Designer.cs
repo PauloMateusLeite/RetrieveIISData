@@ -28,32 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.WebSitesGrid = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.WebSitesGrid)).BeginInit();
             this.SuspendLayout();
+            // 
+            // WebSitesGrid
+            // 
+            this.WebSitesGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.WebSitesGrid.Location = new System.Drawing.Point(62, 46);
+            this.WebSitesGrid.Name = "WebSitesGrid";
+            this.WebSitesGrid.RowHeadersWidth = 62;
+            this.WebSitesGrid.RowTemplate.Height = 28;
+            this.WebSitesGrid.Size = new System.Drawing.Size(1940, 871);
+            this.WebSitesGrid.TabIndex = 0;
+            this.WebSitesGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1585, 883);
+            this.button1.Location = new System.Drawing.Point(62, 17);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 65);
-            this.button1.TabIndex = 0;
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 1;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1914, 1009);
+            this.ClientSize = new System.Drawing.Size(2029, 929);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.WebSitesGrid);
             this.Name = "Form1";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.WebSitesGrid)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
+        private System.Windows.Forms.DataGridView WebSitesGrid;
         private System.Windows.Forms.Button button1;
     }
 }

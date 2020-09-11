@@ -1,4 +1,6 @@
-﻿using System;
+﻿using IISEasyManager.Business;
+using IISEasyManager.Provider;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +17,21 @@ namespace IISEasyManager
         public Form1()
         {
             InitializeComponent();
+            SitesProvider sp = new SitesProvider();
+            GridDataProvider grid = new GridDataProvider(sp);
+            GridViewExpositor gridExpositor = new GridViewExpositor(grid);
+
+            WebSitesGrid.DataSource = gridExpositor.GetGridData();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
