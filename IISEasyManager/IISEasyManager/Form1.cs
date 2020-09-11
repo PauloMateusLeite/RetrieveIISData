@@ -17,7 +17,7 @@ namespace IISEasyManager
         public Form1()
         {
             InitializeComponent();
-            SitesProvider sp = new SitesProvider();
+            IISSitesProvider sp = new IISSitesProvider();
             GridDataProvider grid = new GridDataProvider(sp);
             GridViewExpositor gridExpositor = new GridViewExpositor(grid);
 

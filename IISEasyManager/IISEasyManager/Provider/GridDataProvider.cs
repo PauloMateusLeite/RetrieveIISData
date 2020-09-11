@@ -21,7 +21,7 @@ namespace IISEasyManager.Provider
         public DataTable GetData()
         {
             List<string[]> list = new List<string[]>();
-            var siteNamesList = _localWebSites.GetLocalWebsites();
+            var siteNamesList = _localWebSites.GetLocalWebsitesName();
             foreach (string name in siteNamesList)
             {
                 list.Add(new string[] { name , "" });

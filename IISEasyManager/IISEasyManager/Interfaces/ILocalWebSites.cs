@@ -10,7 +10,7 @@ namespace IISEasyManager.Interfaces
 {
     public interface ILocalWebSites
     {
-        List<string> GetLocalWebsites();
+        List<string> GetLocalWebsitesName();
         void StartWebSite(Site site);
         void StoptWebSite(Site site);
         void RestartWebSite(Site site);

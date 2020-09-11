@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace IISEasyManager.Provider
 {
-    public class SitesProvider : ILocalWebSites
+    public class IISSitesProvider : ILocalWebSites
     {
-        public List<string> GetLocalWebsites()
+        public List<string> GetLocalWebsitesName()
         {
             List<string> ret = new List<string>(); 
             using (ServerManager serverManager = new ServerManager())

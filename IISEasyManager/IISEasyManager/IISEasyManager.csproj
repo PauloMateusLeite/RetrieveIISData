@@ -207,12 +207,14 @@
     </Compile>
     <Compile Include="Interfaces\IGridKeeper.cs" />
     <Compile Include="Interfaces\ILocalAppPool.cs" />
+    <Compile Include="Interfaces\ILocalSite.cs" />
     <Compile Include="Interfaces\ILocalWebSites.cs" />
+    <Compile Include="Model\MySite.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provider\GridDataProvider.cs" />
     <Compile Include="Provider\PoolProvider.cs" />
-    <Compile Include="Provider\SitesProvider.cs" />
+    <Compile Include="Provider\IISSitesProvider.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
