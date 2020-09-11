@@ -1,0 +1,15 @@
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\IISDataRetriever.exe.config
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\IISDataRetriever.exe
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\IISDataRetriever.pdb
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\Microsoft.Web.Administration.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\Microsoft.Win32.Registry.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\System.Reflection.TypeExtensions.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\System.Security.Principal.Windows.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\System.ServiceProcess.ServiceController.dll
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\obj\Debug\IISDataRetriever.csprojAssemblyReference.cache
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\obj\Debug\IISDataRetriever.csproj.CoreCompileInputs.cache
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\obj\Debug\IISDataRetriever.csproj.CopyComplete
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\obj\Debug\IISDataRetriever.exe
+C:\curvaderio\RetrieveIISData\IISDataRetriever\IISDataRetriever\obj\Debug\IISDataRetriever.pdb
