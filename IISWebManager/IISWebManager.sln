@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IISWebManager", "IISWebManager\IISWebManager.csproj", "{0DCC38D6-1AE9-41C7-99C5-F1FB4E93F4D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DCC38D6-1AE9-41C7-99C5-F1FB4E93F4D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DCC38D6-1AE9-41C7-99C5-F1FB4E93F4D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DCC38D6-1AE9-41C7-99C5-F1FB4E93F4D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DCC38D6-1AE9-41C7-99C5-F1FB4E93F4D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBF706B3-7748-42D2-974B-3A593CBCB2DE}
+	EndGlobalSection
+EndGlobal

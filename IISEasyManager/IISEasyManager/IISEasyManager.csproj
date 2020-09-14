@@ -215,6 +215,7 @@
     <Compile Include="Provider\GridDataProvider.cs" />
     <Compile Include="Provider\PoolProvider.cs" />
     <Compile Include="Provider\IISSitesProvider.cs" />
+    <Compile Include="Provider\SiteProvider.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

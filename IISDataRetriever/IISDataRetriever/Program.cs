@@ -24,7 +24,7 @@ namespace IISDataRetriever
                              applicationRoot.VirtualDirectories.Where(v => v.Path == "/").Single();
                     var removeLastBar = virtualRoot.PhysicalPath.EndsWith(@"\") ? virtualRoot.PhysicalPath.Remove(virtualRoot.PhysicalPath.Length - 1, 1) : virtualRoot.PhysicalPath;
                     var finalPath = removeLastBar.Split('\\').Last();
-                    Console.WriteLine(finalPath) ;
+                    Console.WriteLine(removeLastBar) ;
                 }
                 Console.WriteLine("");
                 Console.WriteLine("Pools");
